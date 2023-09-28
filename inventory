@@ -1,0 +1,3 @@
+[remote_servers]
+192.168.1.4 ansible_python_interpreter=/usr/bin/python3
+192.168.1.7 ansible_python_interpreter=/usr/bin/python3
