@@ -1,3 +1,10 @@
-[remote_servers]
-192.168.1.4 ansible_python_interpreter=/usr/bin/python3
-192.168.1.7 ansible_python_interpreter=/usr/bin/python3
+[web_servers]
+192.168.56.117 ansible_user=dzapanta
+127.0.0.1 ansible_user=dave
+
+[db_servers]
+127.0.0.1 ansible_user=dave
+192.168.56.117 ansible_user=dzapanta
+
+[file_servers]
+127.0.0.1 ansible_user=dave
